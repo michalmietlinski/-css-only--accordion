@@ -1,39 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Css only - accordion</title>
-    <link rel="stylesheet" type="text/css" href="main.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="oneAccordion">
-        <label class="btn" for="id1">Accordion first</label>
-        <input type="radio" name="oneAccordion" id="id1" checked="checked"/>
-        <div class="desc">
-          <h1>Some description</h1>
-          Because why not, right?
-        </div>
-      </div>
-      <div class="oneAccordion">
-        <label class="btn" for="id2">Accordion second</label>
-        <input type="radio" name="oneAccordion" id="id2"/>
-        <div class="desc">
-          <h1>Some description</h1>
-          Because why not, right?
-        </div>
-      </div>
-      <div class="oneAccordion">
-        <label class="btn" for="id3">Accordion third</label>
-        <input type="radio" name="oneAccordion" id="id3"/>
-        <div class="desc">
-          <h1>Some description</h1>
-          Because why not, right?
-        </div>
-      </div>
-    </div>
-  </body>
-  <style>
-  html, body, *{
+html, body, *{
   box-sizing:border-box;
   }
   .wrapper{
@@ -96,5 +61,3 @@
   background:#19c4b1;
   padding:5px 10px ;
   }
-  </style>
-</html>
